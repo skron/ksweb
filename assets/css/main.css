@@ -255,6 +255,12 @@ a:after {
 	color: #ff7878;
 }
 
+h3 {
+	color: #aaa;
+	padding-top: 2em;
+	padding-left: 2em;
+}
+
 /****** SECTIONS *****/
 
 .w {
