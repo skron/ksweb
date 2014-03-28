@@ -11,7 +11,7 @@ body {
     color: #404040;
 	line-height: 24px;
     -webkit-overflow-scrolling: touch;
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
 /* Titles */
@@ -59,6 +59,16 @@ p {
 
 .centered {
     text-align: center;
+}
+
+ul.odrazka {
+	padding-left: 0;
+}
+
+ul.odrazka li {
+	list-style: none;
+	padding-left: 26px;
+	background: url(../img/odrazka.png) no-repeat 10px 8px; 
 }
 
 /* Links */
@@ -162,6 +172,7 @@ a:after {
 	background-position: center center;
 	min-height: 500px;
 	width: 100%;
+	border-bottom: 5px solid #ddd;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -276,8 +287,6 @@ a:after {
 	color: white;
 }
 
-
-
 /* Footer Wrap */
 #f {
 	background: #00264d;
@@ -310,9 +319,9 @@ a:after {
 	font-weight: 700;
 }
 
-.w i {
-	color: #cccccc;
-	font-size: 72px;
+.w img {
+	padding-top: 72px;
+	opacity: 0.7;
 }
 
 
@@ -485,6 +494,10 @@ a:after {
     white-space: nowrap;
 }
 
+.dropdown-menu > li > a:hover {
+	background: #A9D2E8;
+}
+
 .dropdown-menu .divider {
     background-color: #E5E5E5;
     height: 1px;
@@ -497,8 +510,8 @@ a:after {
 }
 
 .dl-horizontal {
-	margin: 28px 0 0;
-	line-height: 28px !important;
+	margin: 24px 0 48px;
+	line-height: 24px !important;
 }
 
 .dl-horizontal dt {
@@ -565,6 +578,32 @@ a:after {
 	margin-top: -1px;
 }
 
+@media screen and (max-width: 1199px) {
+.nav-stacked > li {
+    float: left;
+}
+
+.nav-pills > li {
+    background-color: transparent;
+    border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border: 1px solid #f0f7fc;
+}
+
+.nav-pills > li.active {
+    background-color: #fff;
+    border-radius: 4px 4px 0 0;
+	-webkit-border-radius:4px 4px 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border: 1px solid #d9e7f3;
+	border-bottom: 1px solid #fff;
+	z-index: 10 !important;
+	margin-bottom: -1px;
+	padding-bottom: 1px;
+}
+}
+
 .product {
 	padding: 28px 0;
 	margin-bottom: 56px;
@@ -620,8 +659,17 @@ ul.contacts li {
 	padding-left: 48px;
 }
 
-
 .map {
 	background: url(../img/icons/map.svg) left top no-repeat;
 	padding-left: 48px;
+}
+
+.img-wraper {
+	max-width: 100%;
+}
+
+.img-wraper img {
+	max-width: 100% !important;
+    height: auto;
+    display: block;
 }
