@@ -8,3 +8,8 @@ cat $T"header.html" $T"klimatizace-acond.html" $T"footer.html" > klimatizace-aco
 cat $T"header.html" $T"kontakt.html" > kontakt.html
 cat $T"header.html" $T"o-nas.html" $T"footer.html" > o-nas.html
 cat $T"header.html" $T"sluzby.html" $T"footer.html" > sluzby.html
+
+echo `cat *.html | wc -l`" lines processed."
+echo "Done."
+
+exit 0
