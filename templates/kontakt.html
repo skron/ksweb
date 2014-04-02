@@ -1,0 +1,143 @@
+﻿  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">KLIMAT SERVIS</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Vítejte</a></li>
+			<li><a href="sluzby.html">Služby</a></li>
+            <li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Produkty <b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="klimatizace-acond.html">ACOND</a></li>
+					<li><a href="klimatizace-acond-byty.html">— byty, kanceláře</a></li>
+					<li><a href="#">— komerční prostory</a></li>
+					<li class="divider"></li>
+					<li><a href="#">TOSHIBA</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Ceníky</a></li>
+				</ul>
+			</li>
+			<li><a href="o-nas.html">O nás</a></li>
+            <li class="active"><a href="kontakt.html">Kontakt</a></li>
+           </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div id="blue">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h3><strong>Kontakt</strong></h3>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!--  bluewrap -->
+
+
+	<div class="container w">
+		<div class="row">
+			<div class="col-lg-4">
+				<h2 class="under">Provozovna</h2>
+				<ul class="block list-unstyled contacts">
+					<li class="map">Hornoměcholupská 197/20<br>Praha 10, 102 00</li>
+				</ul>
+			</div>
+			<div class="col-lg-4">
+				<h2 class="under">Kontakty</h2>
+				<ul class="block list-unstyled contacts">
+					<li class="tel">(+420) 271 961 680</li>
+					<li class="fax">(+420) 271 961 678</li>
+					<li class="mobil">(+420) 603 483 437</li>
+					<li class="email"><a href="mailto:znamenacek@klimatservis.cz"> znamenacek@klimatservis.cz</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-4">
+				<h2 class="under">Sídlo</h2>
+				<ul class="block list-unstyled contacts">
+					<li class="home">Majakovského 907<br>Černošice, 252 28</li>
+					<li class="empty">DIČ: CZ520308201<br>IČO: 122 49 149</li>
+					<li class="empty"><em>podnikatel zapsán v ŽR MěÚ Černošice</em></li>
+				</ul>
+			</div>
+
+
+		</div><!-- row -->
+		<br>
+		<br>
+	</div><!-- container -->
+
+
+	<div id="r">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h4>nejaky call to action, nebo dalsi info</h4></div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><! -- r wrap -->
+
+
+	<!-- FOOTER -->
+	<div id="f">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12" id="map">
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- Footer -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+			var myLatlng = new google.maps.LatLng(50.052079, 14.532550); // Klimat Servis
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 14,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: myLatlng, // Klimat Servis
+
+                    // How you would like to style the map.
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [			{		featureType:"road",		elementType:"labels",		stylers:[{visibility:"simplified"},{lightness:20}]	},{		featureType:"administrative.land_parcel",		elementType:"all",		stylers:[{visibility:"off"}]	},{		featureType:"landscape.man_made",		elementType:"all",		stylers:[{visibility:"off"}]	},{		featureType:"transit",		elementType:"all",		stylers:[{visibility:"off"}]	},{		featureType:"road.local",		elementType:"labels",		stylers:[{visibility:"simplified"}]	},{		featureType:"road.local",		elementType:"geometry",		stylers:[{visibility:"simplified"}]	},{		featureType:"road.highway",		elementType:"labels",		stylers:[{visibility:"simplified"}]	},{		featureType:"poi",		elementType:"labels",		stylers:[{visibility:"off"}]},{		featureType:"road.arterial",		elementType:"labels",		stylers:[{visibility:"off"}]	},{		featureType:"water",		elementType:"all",		stylers:[{hue:"#a1cdfc"},{saturation:30},{lightness:49}]	},{		featureType:"road.highway",		elementType:"geometry",		stylers:[{hue:"#f49935"}]	},{		featureType:"road.arterial",		elementType:"geometry",		stylers:[{hue:"#fad959"}]	}]
+                };
+
+                // Get the HTML DOM element that will contain your map
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using out element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+				var marker = new google.maps.Marker({
+					position: myLatlng,
+					map: map,
+					title:"Klimat Servis"
+				});
+            }
+        </script>
+  </body>
+</html>
