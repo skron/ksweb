@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Provádíme návrh, dodávku a odbornou montáž klimatizací do bytů, kanceláří, serveroven a komerčních prostor.">
-    <meta name="keywords" content="KLIMAT SERVIS, klimatizace, opravy klimatizace, servis klimatizace, prodej klimatizace">
-    <meta name="author" content="Tereza Koryntová" >
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
-    <title>KLIMAT SERVIS – prodej, instalace, opravy a servis klimatizací</title>
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
   <body>
 
     <!-- Fixed navbar -->
@@ -72,12 +53,12 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4">
-				<h2 class="under">Prodej a montáž</h2>
+				<h2 class="under">Prodej, montáž</h2>
 				<p class="block">Provádíme návrh, dodávku a odbornou montáž <a href="">klimatizací do bytů, kanceláří</a>,<a href=""> serveroven a komerčních prostor</a>.</p>
 				<ul class="list-unstyled list-inline">
-					<li><button type="button" class="btn btn-default"><a href="klimatizace-acond-byty.html">ACOND</a></button></li>
-					<li><button type="button" class="btn btn-default"><a href="klimatizace-toshiba.html">TOSHIBA</a></button></li>
-					<li><button type="button" class="btn btn-default"><a href="klimatizace-ceniky.html">Ceníky</a></button></li>
+					<li><button type="button" class="btn btn-default">ACOND</button></li>
+					<li><button type="button" class="btn btn-default">TOSHIBA</button></li>
+					<li><button type="button" class="btn btn-default">Ceníky</button></li>
 				</ul>
 			</div>
 			<div class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-sm-1  col-sm-offset-1">
@@ -86,7 +67,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4  col-sm-4">
-				<h2 class="under">Servis a opravy</h2>
+				<h2 class="under">Servis, opravy</h2>
 				<p class="block">Zajistíme <a href="">opravy, servis</a>, zákonné revize a zkoušky těsnosti u klimatizací ACOND, YORK, MATUSHIMA, TOSHIBA, HITACHI aj.</p>
 			</div>
 		</div><!-- row -->
@@ -170,74 +151,3 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</div><! -- r wrap -->
-	<!-- FOOTER -->
-	<div id="f">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-8  col-md-8" id="map">
-				</div>
-				<div class="col-lg-4  col-md-4">
-					<h3>Kontaktujte nás</h3>
-					<dl class="dl-horizontal">
-						<dt><i class="fa fa-map-marker"></i></dt>
-						<dd>KLIMAT SERVIS<br>
-							Hornoměcholupská 20<br>
-							Praha 10<br>
-						</dd>
-						<dt><i class="fa fa-mobile"></i></dt>
-						<dd>(+420) 603 483 437<br>
-							(+420) 271 961 680
-						</dd>
-						<dt><i class="fa fa-envelope"></i></dt>
-						<dd><a target="_blank" href="mailto:znamenacek@klimatservis.cz">znamenacek@klimatservis.cz</a></dd>
-					</dl>
-				</div>
-			</div><!-- row -->
-		</div><!-- container -->
-	</div><!-- Footer -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
-     <script type="text/javascript">
-
-// when the window has finished loading create our google map below
-google.maps.event.addDomListener(window, 'load', init);
-var myLatlng = new google.maps.LatLng(50.052079, 14.532550); // Klimat Servis
-
-function init() {
-// Basic options for a simple Google Map
-// For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-	var mapOptions = {
-// How zoomed in you want the map to start at (always required)
-		zoom: 14,
-// The latitude and longitude to center the map (always required)
-		center: myLatlng, // Klimat Servis
-// How you would like to style the map.
-// This is where you would paste any style found on Snazzy Maps.
-		styles: [{
-			featureType: "road",
-			elementType: "labels",
-			stylers:[{visibility: "simplified"},
-			{lightness:20}]},{featureType: "administrative.land_parcel",
-			elementType:"all",
-			stylers:[{visibility:"off"}]},
-			{featureType:"landscape.man_made",		elementType:"all",		stylers:[{visibility:"off"}]	},{		featureType:"transit",		elementType:"all",		stylers:[{visibility:"off"}]	},{		featureType:"road.local",		elementType:"labels",		stylers:[{visibility:"simplified"}]	},{		featureType:"road.local",		elementType:"geometry",		stylers:[{visibility:"simplified"}]	},{		featureType:"road.highway",		elementType:"labels",		stylers:[{visibility:"simplified"}]	},{		featureType:"poi",		elementType:"labels",		stylers:[{visibility:"off"}]},{		featureType:"road.arterial",		elementType:"labels",		stylers:[{visibility:"off"}]	},{		featureType:"water",		elementType:"all",		stylers:[{hue:"#a1cdfc"},{saturation:30},{lightness:49}]	},{		featureType:"road.highway",		elementType:"geometry",		stylers:[{hue:"#f49935"}]	},{		featureType:"road.arterial",		elementType:"geometry",		stylers:[{hue:"#fad959"}]	}]
-		};
-// Get the HTML DOM element that will contain your map
-// We are using a div with id="map" seen below in the <body>
-		var mapElement = document.getElementById('map');
-// Create the Google Map using out element and options defined above
-		var map = new google.maps.Map(mapElement, mapOptions);
-		var marker = new google.maps.Marker({
-			position: myLatlng,
-			map: map,
-			title:"KLIMAT SERVIS"
-		});
-}
-     </script>
-  </body>
-</html>

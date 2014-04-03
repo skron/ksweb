@@ -28,18 +28,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Klimat Servis</a>
+          <a class="navbar-brand" href="index.html">KLIMAT SERVIS</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Vítejte</a></li>
 			<li><a href="sluzby.html">Služby</a></li>
             <li class="dropdown active">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Produkty <b class="caret"></b></a>
 				<ul class="dropdown-menu">
 					<li class="active"><a href="klimatizace-acond.html">ACOND</a></li>
-					<li><a href="klimatizace-acond-byty.html">- byty, kanceláře</a></li>
-					<li><a href="#">- komerční prostory</a></li>
+					<li><a href="klimatizace-acond-byty.html">— byty, kanceláře</a></li>
+					<li><a href="#">— komerční prostory</a></li>
 					<li class="divider"></li>
 					<li><a href="#">TOSHIBA</a></li>
 					<li class="divider"></li>
@@ -117,34 +117,32 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</div><! -- r wrap -->
-	
-	
+
 	<!-- FOOTER -->
 	<div id="f">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-8" id="map">
+				<div class="col-lg-8  col-md-8" id="map">
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4  col-md-4">
 					<h3>Kontaktujte nás</h3>
 					<dl class="dl-horizontal">
 						<dt><i class="fa fa-map-marker"></i></dt>
-						<dd>Klimat Servis<br>
+						<dd>KLIMAT SERVIS<br>
 							Hornoměcholupská 20<br>
 							Praha 10<br>
 						</dd>
 						<dt><i class="fa fa-mobile"></i></dt>
-						<dd>603 483 437<br>
-							271 961 680
+						<dd>(+420) 603 483 437<br>
+							(+420) 271 961 680
 						</dd>
 						<dt><i class="fa fa-envelope"></i></dt>
-						<dd><a href="mailto:znamenacek@klimatservis.cz">znamenacek@klimatservis.cz</a></dd>
+						<dd><a target="_blank" href="mailto:znamenacek@klimatservis.cz">znamenacek@klimatservis.cz</a></dd>
 					</dl>
 				</div>
 			</div><!-- row -->
 		</div><!-- container -->
 	</div><!-- Footer -->
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -152,39 +150,42 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
-        
-        <script type="text/javascript">
-            // When the window has finished loading create our google map below
-            google.maps.event.addDomListener(window, 'load', init);
-			var myLatlng = new google.maps.LatLng(50.052079, 14.532550); // Klimat Servis
-            function init() {
-                // Basic options for a simple Google Map
-                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-                var mapOptions = {
-                    // How zoomed in you want the map to start at (always required)
-                    zoom: 14,
+     <script type="text/javascript">
 
-                    // The latitude and longitude to center the map (always required)
-                    center: myLatlng, // Klimat Servis
+// when the window has finished loading create our google map below
+google.maps.event.addDomListener(window, 'load', init);
+var myLatlng = new google.maps.LatLng(50.052079, 14.532550); // Klimat Servis
 
-                    // How you would like to style the map. 
-                    // This is where you would paste any style found on Snazzy Maps.
-                    styles: [			{		featureType:"road",		elementType:"labels",		stylers:[{visibility:"simplified"},{lightness:20}]	},{		featureType:"administrative.land_parcel",		elementType:"all",		stylers:[{visibility:"off"}]	},{		featureType:"landscape.man_made",		elementType:"all",		stylers:[{visibility:"off"}]	},{		featureType:"transit",		elementType:"all",		stylers:[{visibility:"off"}]	},{		featureType:"road.local",		elementType:"labels",		stylers:[{visibility:"simplified"}]	},{		featureType:"road.local",		elementType:"geometry",		stylers:[{visibility:"simplified"}]	},{		featureType:"road.highway",		elementType:"labels",		stylers:[{visibility:"simplified"}]	},{		featureType:"poi",		elementType:"labels",		stylers:[{visibility:"off"}]},{		featureType:"road.arterial",		elementType:"labels",		stylers:[{visibility:"off"}]	},{		featureType:"water",		elementType:"all",		stylers:[{hue:"#a1cdfc"},{saturation:30},{lightness:49}]	},{		featureType:"road.highway",		elementType:"geometry",		stylers:[{hue:"#f49935"}]	},{		featureType:"road.arterial",		elementType:"geometry",		stylers:[{hue:"#fad959"}]	}]
-                };
-
-                // Get the HTML DOM element that will contain your map 
-                // We are using a div with id="map" seen below in the <body>
-                var mapElement = document.getElementById('map');
-
-                // Create the Google Map using out element and options defined above
-                var map = new google.maps.Map(mapElement, mapOptions);
-				
-				var marker = new google.maps.Marker({
-					position: myLatlng,
-					map: map,
-					title:"Klimat Servis"
-				});
-            }
-        </script>
+function init() {
+// Basic options for a simple Google Map
+// For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+	var mapOptions = {
+// How zoomed in you want the map to start at (always required)
+		zoom: 14,
+// The latitude and longitude to center the map (always required)
+		center: myLatlng, // Klimat Servis
+// How you would like to style the map.
+// This is where you would paste any style found on Snazzy Maps.
+		styles: [{
+			featureType: "road",
+			elementType: "labels",
+			stylers:[{visibility: "simplified"},
+			{lightness:20}]},{featureType: "administrative.land_parcel",
+			elementType:"all",
+			stylers:[{visibility:"off"}]},
+			{featureType:"landscape.man_made",		elementType:"all",		stylers:[{visibility:"off"}]	},{		featureType:"transit",		elementType:"all",		stylers:[{visibility:"off"}]	},{		featureType:"road.local",		elementType:"labels",		stylers:[{visibility:"simplified"}]	},{		featureType:"road.local",		elementType:"geometry",		stylers:[{visibility:"simplified"}]	},{		featureType:"road.highway",		elementType:"labels",		stylers:[{visibility:"simplified"}]	},{		featureType:"poi",		elementType:"labels",		stylers:[{visibility:"off"}]},{		featureType:"road.arterial",		elementType:"labels",		stylers:[{visibility:"off"}]	},{		featureType:"water",		elementType:"all",		stylers:[{hue:"#a1cdfc"},{saturation:30},{lightness:49}]	},{		featureType:"road.highway",		elementType:"geometry",		stylers:[{hue:"#f49935"}]	},{		featureType:"road.arterial",		elementType:"geometry",		stylers:[{hue:"#fad959"}]	}]
+		};
+// Get the HTML DOM element that will contain your map
+// We are using a div with id="map" seen below in the <body>
+		var mapElement = document.getElementById('map');
+// Create the Google Map using out element and options defined above
+		var map = new google.maps.Map(mapElement, mapOptions);
+		var marker = new google.maps.Marker({
+			position: myLatlng,
+			map: map,
+			title:"KLIMAT SERVIS"
+		});
+}
+     </script>
   </body>
 </html>

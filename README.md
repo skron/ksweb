@@ -1,9 +1,10 @@
-Klimat Servis
+KLIMAT SERVIS
 =============
 
-* static responsive microsite
-* bootstrap
 
-URL:
+* static microsite
+* Twitter bootstrap
+* responsive template
 
-www.klimatservis.cz
+
+http://www.klimatservis.cz/
