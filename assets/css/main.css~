@@ -85,8 +85,8 @@ a {
 
 a:hover,
 a:focus {
-    color: #4C9AC9;
-    text-decoration: udnerline;
+    color: #7b7b7b;
+    text-decoration: none;
     outline: 0;
 }
 

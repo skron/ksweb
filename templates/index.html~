@@ -1,0 +1,153 @@
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">KLIMAT SERVIS</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Vítejte</a></li>
+			<li><a href="sluzby.html">Služby</a></li>
+            <li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Produkty <b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="klimatizace-acond.html">ACOND</a></li>
+					<li><a href="klimatizace-acond-byty.html">— byty, kanceláře</a></li>
+					<li><a href="#">— komerční prostory</a></li>
+					<li class="divider"></li>
+					<li><a href="#">TOSHIBA</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Ceníky</a></li>
+				</ul>
+			</li>
+			<li><a href="o-nas.html">O nás</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+           </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h1>KLIMAT SERVIS<br>Karel Znamenáček</h1>
+				<h2>prodej, instalace, opravy a servis klimatizací</h2>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- headerwrap -->
+
+	<div class="container w">
+		<div class="row">
+			<div class="col-lg-1 col-md-1 col-sm-1">
+				<div class="img-wraper">
+					<img src="assets/img/icons/wrench.svg">
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4">
+				<h2 class="under">Prodej, montáž</h2>
+				<p class="block">Provádíme návrh, dodávku a odbornou montáž <a href="">klimatizací do bytů, kanceláří</a>,<a href=""> serveroven a komerčních prostor</a>.</p>
+				<ul class="list-unstyled list-inline">
+					<li><button type="button" class="btn btn-default">ACOND</button></li>
+					<li><button type="button" class="btn btn-default">TOSHIBA</button></li>
+					<li><button type="button" class="btn btn-default">Ceníky</button></li>
+				</ul>
+			</div>
+			<div class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-sm-1  col-sm-offset-1">
+				<div class="img-wraper">
+					<img src="assets/img/icons/gear.svg">
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4  col-sm-4">
+				<h2 class="under">Servis, opravy</h2>
+				<p class="block">Zajistíme <a href="">opravy, servis</a>, zákonné revize a zkoušky těsnosti u klimatizací ACOND, YORK, MATUSHIMA, TOSHIBA, HITACHI aj.</p>
+			</div>
+		</div><!-- row -->
+	</div><!-- container -->
+
+
+	<!-- FEATURE SECTION -->
+	<div class="container wb">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 class="under">Poradíme vám s výběrem vhodného typu klimatizace</h2>
+			</div>
+			<div class="col-lg-12"><div class="block"></div></div>
+			<div class="col-lg-3 col-md-6  col-sm-12">
+				<div class="bw">
+					<h3>Optimální účinnost</h3>
+					<p>Naše firma nabízí tzv.&nbsp;<strong>»dělení klimatizace«</strong>, tj.&nbsp;1–5 vnitřních jednotek propojených s&nbsp;jednou venkovní kondenzační jednotkou. Tím se dosahuje vysoké energetické účinnosti.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12">
+				<div class="bw">
+					<h3>Chlazení i vytápění</h3>
+					<p>Klimatizace lze využít jak k&nbsp;<strong>chlazení</strong>, tak i&nbsp;k&nbsp;<strong>úspornému vytápění</strong>. Jsou vybaveny tepelným čerpadlem vzduch–vzduch. Současně slouží i&nbsp;k&nbsp;filtraci vzduchu.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12">
+				<div class="bw">
+					<h3>Byty, domy, kanceláře</h3>
+					<p>Pro byty, rodinné domy a&nbsp;kanceláře jsou vhodné <strong>nástěnné a&nbsp;podparapetní klimatizace</strong> s&nbsp;chladícím/topným výkonem <span class="nowrap">2,0/2,5—7,0/8,0&nbsp;kW.</span><br>Cena za dodávku klimatizace včetně montáže je již od <strong>19&nbsp;000&nbsp;Kč bez DPH</strong>.</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12">
+				<div class="bw">
+					<h3>Výrobní a komerční prostory</h3>
+					<p>Pro serverovny, provozovny, výrobní a&nbsp;jiné komerční prostory doporučujeme <strong>kazetové a&nbsp;podstropní/parapetní klimatizace</strong> s&nbsp;chladícím/topným výkonem <span class="nowrap">5,0/6,0—16,0/19,0&nbsp;kW.</span></p>
+				</div>
+			</div>
+		</div><!-- row -->
+	</div><!-- container -->
+
+
+	<div id="lg">
+		<div class="container">
+			<div class="row centered">
+				<h3>Naši významní klienti</h3>
+				<div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-4">
+					<div class="img-wraper">
+						<img src="assets/img/cssz.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4">
+					<div class="img-wraper">
+						<img src="assets/img/dpp.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4">
+					<div class="img-wraper">
+						<img src="assets/img/ferona.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4">
+					<div class="img-wraper">
+						<img src="assets/img/pre.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4">
+					<div class="img-wraper">
+						<img src="assets/img/accenture.png" alt="">
+					</div>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- dg -->
+
+	<div id="r">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h4>tady by mohl být nějaký slogan</h4>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><! -- r wrap -->
