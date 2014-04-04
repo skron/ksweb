@@ -67,7 +67,7 @@
 						<p>nástěnná vnitřní jednotka<br>chladící/topný výkon 2,7/2,9 - 6,6/7,0 kW</p>
 					</div>
 					<div class="col-lg-4">	
-						<ul>
+						<ul class="odrazka">
 							<li>Auto Restart</li>
 							<li>Režim Sleep</li>
 							<li>Turbo mód</li>
@@ -96,7 +96,7 @@
 						<p>kombinace nástěnných, kazetových a podparapetních vnitřních jednotek<br>chladící/topný výkon 2,0/2,3 - 5,2/5,2 kW</p>
 					</div>
 					<div class="col-lg-4">	
-						<ul>
+						<ul class="odrazka">
 							<li>Auto Restart</li>
 							<li>Režim Sleep</li>
 							<li>Turbo mód</li>

@@ -24,7 +24,7 @@
 					<li class="divider"></li>
 					<li><a href="#">TOSHIBA</a></li>
 					<li class="divider"></li>
-					<li><a href="#">Ceníky</a></li>
+					<li><a href="ceniky.html">Ceníky</a></li>
 				</ul>
 			</li>
 			<li><a href="o-nas.html">O nás</a></li>
@@ -62,7 +62,7 @@
 				</ul>
 			</div>
 
-			<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="col-lg-1 col-md-1 col-sm-1">
 				<div class="img-wraper">
 					<img src="assets/img/icons/gear.svg">
 				</div>
