@@ -2,3 +2,5 @@
 compiler.jar
 *.bak
 templates/bak/*
+*.html~
+
