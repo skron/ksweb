@@ -313,7 +313,7 @@ a:after {
 
 /****** SECTIONS *****/
 
-.w {
+.w, .t  {
 	padding-top: 72px;
 }
 

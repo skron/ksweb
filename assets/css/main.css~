@@ -313,6 +313,10 @@ a:after {
 
 /****** SECTIONS *****/
 
+.t {
+	padding: 72px 0 48px;	
+}
+
 .w {
 	padding-top: 72px;
 }
@@ -607,7 +611,7 @@ a:after {
 	padding-bottom: 1px;
 }
 
-.nav > li > a {
+#myTab > .nav > li > a {
 	padding-right: 41px;	
 	}
 
