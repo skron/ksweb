@@ -4,6 +4,7 @@ T='templates/'
 
 cat $T"header.html" $T"index.html" $T"footer.html" > index.html
 cat $T"header.html" $T"klimatizace-acond-byty.html" $T"footer.html" > klimatizace-acond-byty.html
+cat $T"header.html" $T"klimatizace-acond-komercni.html" $T"footer.html" > klimatizace-acond-komercni.html
 cat $T"header.html" $T"klimatizace-acond.html" $T"footer.html" > klimatizace-acond.html
 cat $T"header.html" $T"klimatizace-toshiba.html" $T"footer.html" > klimatizace-toshiba.html
 cat $T"header.html" $T"ceniky.html" $T"footer.html" > ceniky.html
