@@ -1,4 +1,4 @@
-﻿  <body>
+  <body>
 
     <!-- Fixed navbar -->
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -24,7 +24,7 @@
 					<li class="divider"></li>
 					<li><a href="#">TOSHIBA</a></li>
 					<li class="divider"></li>
-					<li><a href="#">Ceníky</a></li>
+					<li><a href="ceniky.html">Ceníky</a></li>
 				</ul>
 			</li>
 			<li><a href="o-nas.html">O nás</a></li>
@@ -56,7 +56,7 @@
 		</div>
 
 		
-		<div class="tab-content col-lg-10">
+		<div class="tab-content col-lg-10 col-xs-12">
 			<div class="tab-pane active" id="klima_1">
 				<h2 class="under">AR DC Inverter</h2>
 				<div class="block">

@@ -63,6 +63,7 @@ p {
 
 ul.odrazka {
 	padding-left: 0;
+	margin-bottom: 24px;
 }
 
 ul.odrazka li {
@@ -554,7 +555,7 @@ a:after {
 }
 
 .nav-pills > li.active {
-    background-color: #fff;
+    background: #fff;
     border-radius: 4px 0px 0px 4px/4px;
 	-webkit-border-radius: 4px 0px 0px 4px/4px;
 	-moz-border-radius: 4px 0px 0px 4px/4px;
@@ -566,7 +567,7 @@ a:after {
 }	
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    background-color: #fff;
+    background: #fff url(../img/icons/rarrow.png) right center no-repeat;
     color: #4C9AC9;
     font-weight: bold;
 }
@@ -595,7 +596,7 @@ a:after {
 }
 
 .nav-pills > li.active {
-    background-color: #fff;
+    background: #fff;
     border-radius: 4px 4px 0 0;
 	-webkit-border-radius:4px 4px 0;
 	-moz-border-radius: 4px 4px 0 0;
@@ -605,6 +606,15 @@ a:after {
 	margin-bottom: -1px;
 	padding-bottom: 1px;
 }
+
+#myTab > .nav > li > a {
+	padding-right: 41px;	
+	}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background: #fff url(../img/icons/darrow.png) right center no-repeat;
+   }
+   
 }
 
 .product {
@@ -675,4 +685,18 @@ ul.contacts li {
 	max-width: 100% !important;
     height: auto;
     display: block;
+}
+
+.list-inline {
+	margin-bottom:  24px;
+}
+
+.list-inline > li {
+	padding-bottom: 10px;
+}
+
+@media screen and (max-width: 767px){
+.mt48 {
+	margin-top: 48px;
+	}
 }
