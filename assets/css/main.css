@@ -321,7 +321,7 @@ a:after {
 	font-weight: 700;
 }
 
-.w img {
+.w img, .t img {
 	margin-bottom: 48px;	
 }
 
@@ -480,7 +480,7 @@ a:after {
 
 .dropdown-menu li.active a, .dropdown-menu li.active a:hover {
 	background: #fff;
-	color: red;
+	color: #9DC531;
 	font-weight: bold;
 }
 

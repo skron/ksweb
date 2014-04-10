@@ -321,8 +321,8 @@ a:after {
 	font-weight: 700;
 }
 
-.w img {
-	margin-bottom: 24px;	
+.w img, .t img {
+	margin-bottom: 48px;	
 }
 
 .wb {
