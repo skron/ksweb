@@ -313,11 +313,7 @@ a:after {
 
 /****** SECTIONS *****/
 
-.t {
-	padding: 72px 0 48px;	
-}
-
-.w {
+.w, .t  {
 	padding-top: 72px;
 }
 
@@ -326,10 +322,8 @@ a:after {
 }
 
 .w img {
-	padding-top: 72px;
-	opacity: 0.7;
+	margin-bottom: 24px;	
 }
-
 
 .wb {
 	padding-top: 72px;
