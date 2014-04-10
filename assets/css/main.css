@@ -480,7 +480,7 @@ a:after {
 
 .dropdown-menu li.active a, .dropdown-menu li.active a:hover {
 	background: #fff;
-	color: #9DC531;
+	color: #F85C37;
 	font-weight: bold;
 }
 
@@ -516,6 +516,12 @@ a:after {
 
 .dl-horizontal dt {
     width: 60px;
+    clear: left;
+    float: left;
+    overflow: hidden;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .dl-horizontal dd {
@@ -697,4 +703,23 @@ ul.contacts li {
 .mt48 {
 	margin-top: 48px;
 	}
+}
+
+@media screen and (max-width: 991px){
+.kontakt {
+	text-align: center;	
+	}
+	
+.kontakt > dt {
+	display: none;	
+	}
+
+.kontakt > dd {
+	margin-left: 0;	
+	}
+
+#f h3 {
+	padding-left: 0;
+	text-align: center;	
+	}			
 }
