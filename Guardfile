@@ -5,7 +5,7 @@ guard :shell, :all_on_start => true do
 end
 
 guard 'livereload' do
-	watch(%r{templates/.+.html})
+	watch(%r{.+.html})
 	watch(%r{assets/css/.+\.css})
 	watch(%r{assets/js/.+\.css})
 	watch(%r{assets/fonts/.+\..+})
