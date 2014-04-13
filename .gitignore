@@ -1,6 +1,6 @@
-.DS_Store
+!.gitignore
 compiler.jar
+.DS_Store
 *.bak
-templates/bak/*
-*.html~
-
+*.*~
+.Trash-1000
