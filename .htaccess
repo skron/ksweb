@@ -1,0 +1,22 @@
+<ifModule mod_headers.c>
+	<FilesMatch "\.(ico|gif|jpg|jpeg|png|pdf|svg|map)$">
+		ExpiresDefault A2419200
+		Header append Cache-Control "public"
+	</FilesMatch>
+
+	<FilesMatch "\.(js|css)$">
+		ExpiresDefault A7200
+		Header append Cache-Control "private, must-revalidate"
+	</FilesMatch>
+
+	<FilesMatch "\.(html|htm|txt)$">
+		ExpiresDefault A3600
+		Header append Cache-Control "private, must-revalidate"
+	</FilesMatch>
+</ifModule>
+
+<ifModule mod_expires.c>
+	<FilesMatch "\.(ico|gif|jpg|jpeg|png|pdf|svg|map)$">
+		ExpiresDefault "access plus 1 year"
+	</FilesMatch>
+</ifModule>
