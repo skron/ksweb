@@ -166,7 +166,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header2.jpg) no-repeat center top;
+	background: url(../img/header3.jpg) no-repeat center top;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -703,6 +703,14 @@ ul.contacts li {
 .mt48 {
 	margin-top: 48px;
 	}
+
+.navbar-fixed-top {
+    position: static;
+	}
+
+body {
+	margin-top: 0;
+	}	
 }
 
 @media screen and (max-width: 991px){
@@ -722,4 +730,9 @@ ul.contacts li {
 	padding-left: 0;
 	text-align: center;	
 	}			
+}
+
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    border-color: #00264d;
+	background: #00264d;
 }
