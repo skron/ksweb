@@ -1,4 +1,4 @@
-guard :shell, :all_on_start => true do
+guard :shell do
   watch /templates.*/ do |m|
 	`./build.sh`
   end
