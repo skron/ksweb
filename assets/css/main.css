@@ -76,7 +76,8 @@ ul.odrazka li {
 a {
     color: #f85c37;
     word-wrap: break-word;
-
+	font-weight: bold;
+	text-decoration: underline;
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -87,7 +88,6 @@ a {
 a:hover,
 a:focus {
     color: #4C9AC9;
-    text-decoration: udnerline;
     outline: 0;
 }
 
@@ -116,6 +116,10 @@ a:after {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	margin-bottom: 0px;
+}
+
+.navbar a {
+	text-decoration: none;
 }
 
 .navbar-inverse {
@@ -167,12 +171,10 @@ a:after {
 
 #headerwrap {
 	background: url(../img/header3.jpg) no-repeat center top;
-	margin-top: -10px;
-	padding-top:20px;
 	text-align:center;
 	background-attachment: relative;
-	background-position: center center;
-	min-height: 500px;
+	background-position: center top;
+	min-height: 300px;
 	width: 100%;
 	border-bottom: 5px solid #ddd;
 	
@@ -188,7 +190,7 @@ a:after {
 }
 
 #headerwrap h1 {
-	margin-top: 100px;
+	margin-top: 48px;
 	color: #003366;
 	font-size: 48px;
 	font-weight: 700;
@@ -200,6 +202,7 @@ a:after {
 	font-weight: 700;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+	margin-bottom: 48px;
 }	
 
 /* Dark Grey Wrap */
@@ -543,9 +546,10 @@ a:after {
 }
 
 .nav-pills > li > a, .nav-pills > li > a:hover, .nav-pills > li > a:focus {
-   background-color: transparent;
+	background-color: transparent;
 	color: #404040;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 
 .nav-pills > li {
@@ -642,32 +646,32 @@ ul.contacts li {
 }
 
 .map {
-	background: url(../img/icons/map.svg) left top no-repeat;
+	background: url(../img/icons/map.png) left top no-repeat;
 	padding-left: 48px;
 }
 
 .mobil {
-	background: url(../img/icons/mobil.svg) left center no-repeat;
+	background: url(../img/icons/mobil.png) left center no-repeat;
 	padding-left: 48px;
 }
 
 .tel {
-	background: url(../img/icons/tel.svg) left center no-repeat;
+	background: url(../img/icons/tel.png) left center no-repeat;
 	padding-left: 48px;
 }
 
 .fax {
-	background: url(../img/icons/fax.svg) left center no-repeat;
+	background: url(../img/icons/fax.png) left center no-repeat;
 	padding-left: 48px;
 }
 
 .email {
-	background: url(../img/icons/email.svg) left center no-repeat;
+	background: url(../img/icons/email.png) left center no-repeat;
 	padding-left: 48px;
 }
 
 .home {
-	background: url(../img/icons/home.svg) left top no-repeat;
+	background: url(../img/icons/home.png) left top no-repeat;
 	padding-left: 48px;
 }
 
@@ -677,7 +681,7 @@ ul.contacts li {
 }
 
 .map {
-	background: url(../img/icons/map.svg) left top no-repeat;
+	background: url(../img/icons/map.png) left top no-repeat;
 	padding-left: 48px;
 }
 
@@ -737,4 +741,9 @@ ul.contacts li {
 .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     border-color: #00264d;
 	background: #00264d;
+}
+
+.toshiba a {
+	outline: none;
+	text-decoration: none;
 }
