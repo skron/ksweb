@@ -136,18 +136,36 @@ a:after {
 }
 
 .navbar-inverse .navbar-brand {
+	color: #fff;
+	font-weight: normal;
+	font-size: 16px;
+	line-height:24px;
+	padding: 10px 15px;
+	}
+
+.navbar-inverse .navbar-brand > a {
 	color: #999999;
 	font-weight: bolder;
 	font-size: 22px;
 	letter-spacing: 1px;
+	display: inline-block;
+	margin: 0 15px 0 0;	
 }
 
-.navbar-inverse .navbar-brand i {
-	color: #ff7878;
-	font-size: 22px;
-	letter-spacing: 1px;
-}
+.navbar-inverse .navbar-brand > a:hover {
+	color: #fff;
+	}
 
+.navbar-inverse .navbar-brand > span {	
+	display: inline-block;
+	height: 24px;
+	vertical-align: center;
+	}
+	
+.navbar-inverse .navbar-brand > span > img {	
+	margin-top: -3px;
+	}	
+	
 /*TILT*/
 .tilt {
   -webkit-transition: all 0.5s ease;
@@ -261,8 +279,9 @@ a:after {
 }
 
 #r h4 {
+	font-size: 24px;
 	color: white;
-	font-weight: 700;
+	font-weight: bold;
 	margin-bottom: 0px;
 }
 
@@ -312,7 +331,6 @@ a:after {
 #f h3 {
 	color: #aaa;
 	padding-top: 56px;
-	padding-left: 80px;
 }
 
 /****** SECTIONS *****/
@@ -721,6 +739,10 @@ ul.contacts li {
 }
 
 @media screen and (max-width: 991px){
+.dl-horizontal {
+	margin:0;
+	}
+
 .kontakt {
 	text-align: center;	
 	}
@@ -747,4 +769,16 @@ ul.contacts li {
 .toshiba a {
 	outline: none;
 	text-decoration: none;
+}
+
+.btn-default {
+    background-color: #FFFFFF;
+    border-color: #F85C37;
+    color: #F85C37;
+}
+
+.btn-default:hover {
+    background-color: #FFFFFF;
+    border-color: #4c9ac9;
+    color: #4c9ac9;
 }
