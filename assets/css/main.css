@@ -165,6 +165,17 @@ a:after {
 .navbar-inverse .navbar-brand > span > img {	
 	margin-top: -3px;
 	}	
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+.navbar-inverse .navbar-brand {
+	padding-top: 0;
+	}
+	
+.navbar-inverse .navbar-brand > span {	
+	margin: 5px 0 0 -10px;
+	font-size: 14px;
+	}
+}
 	
 /*TILT*/
 .tilt {
