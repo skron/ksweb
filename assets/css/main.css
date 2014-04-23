@@ -744,6 +744,10 @@ ul.contacts li {
 	top: 0;
 	}
 
+.navbar-inverse .navbar-brand {
+	padding: 0px 15px;
+	}	
+	
 * {
      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
