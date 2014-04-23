@@ -786,6 +786,7 @@ ul.contacts li {
     background-color: #FFFFFF;
     border-color: #F85C37;
     color: #F85C37;
+	text-decoration: none;
 }
 
 .btn-default:hover {
